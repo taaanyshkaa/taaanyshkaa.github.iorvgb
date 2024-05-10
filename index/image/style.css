@@ -1,0 +1,278 @@
+.background_image1{
+  background-image: url("image/background_1.png");
+  position: static;
+  width: auto;
+  height: 1080px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  margin: 0;
+  clear:both;
+}
+
+.header{
+  height: 8%;
+  width: 100%;
+
+  background: rgba(89, 175, 140, 0.2);
+  backdrop-filter: blur(5px);
+  background-image: url("image/head.png");
+  border: solid 0px black;
+  position: fixed;
+  display: inline-block;
+  background-size: 100% 100%;
+  margin: 0px 0px 0px;
+  padding: 0px 0px 0px;
+  top: 0;
+  transform: translate(0);
+}
+
+.header table{
+  height: 100%;
+  width: 100%;
+}
+
+.header img{
+  width: 50px;
+  height: auto;
+}
+
+.header p{
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  color: #ECD6BE;
+  border: 0px solid #2E5945;
+  margin: 0px ;
+  padding: 0px ;
+  top: 0;
+}
+
+.sotUaText{
+  width: 556px;
+  height: 162px;
+  padding-top: 12%;
+  padding-right: 2%;
+  float: right;
+  font-family: 'brush-tipTexe TRIAL';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 110px;
+  line-height: 88.5%;
+  text-align: center;
+  color: #F9F9F9;
+}
+
+.textFont1{
+  padding-top: 5%;
+  padding-right: 4%;
+  padding-bottom: 0;
+  float: right;
+  clear:both;
+  width: 471px;
+  text-align: center;
+  font-family: 'Current';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFDFD;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.textFont2{
+  padding-right: 4%;
+  padding-bottom: 2%;
+  float: right;
+  text-align: center;
+  width: 471px;
+  clear:both;
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFDFD;
+  clear:both;
+}
+
+.container{
+  padding-right: 13.5%;
+  float: right;
+  text-align: center;
+
+  clear:both;
+
+  background-image: url("image/1.svg");
+  background-repeat: no-repeat;
+  width: 153px;
+  height: 49px;
+
+  position: inherit;
+  font-family: 'Current';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #ECD6BE;
+
+  margin: 0;
+  margin-bottom: 0;
+
+}
+
+.container p{
+  margin-top: 17px;
+}
+
+
+.textFont2 img{
+  padding-top: 9%;
+}
+
+
+.leftDiv{
+  height: 100%;
+  width: 40%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  float: left;
+}
+
+.leftDiv img{
+  height: auto ;
+  width: 125%;
+}
+
+.leftDiv p{
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ECD6BE;
+  padding-top: 10%;
+  padding-left: 5%;
+  background-color: #0F0D18;
+  text-align: justify;
+}
+
+.rightDiv p{
+
+  font-family: 'Comfortaa';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ECD6BE;
+  padding-top: 10%;
+  padding-left: 5%;
+  background-color: #0F0D18;
+  text-align: justify;
+}
+
+.rightDiv{
+  height: 100%;
+  width: 40%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  float: right;
+  color: #FFFDFD;
+  background-size: cover;
+  background-color: #0F0D18;
+}
+
+.rightDiv img{
+  height: auto ;
+  width: 100%;
+}
+
+table.F{
+  height: 100%;
+  width: 86%;
+  float: left;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+img.Full{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img.Full2{
+  margin-top: 4%;
+  margin-left: 5%;
+  width: 90%;
+  height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+img.F{
+  width: 95%;
+  height: auto;
+}
+
+.slider{
+  width: 336px;
+  height: 5px;
+  margin: 30px auto;
+}
+
+.slider-line{
+  height: 250px;
+  width: 1024px;
+  display: flex;
+  position: relative;
+  left: 0;
+  transition: all ease 1s;
+}
+
+.footer{
+  margin-top: 20%;
+  width: 180%;
+  height: 80px;
+  left: 1440px;
+  top: 5990px;
+  background: rgba(89, 175, 140, 0.2);
+  backdrop-filter: blur(5px);
+  background-image: url("image/footer.svg");
+  background-size: auto;
+  position: static;
+  display: inline-block;
+}
+
+.footer table{
+  height: 100%;
+  width: 100%;
+}
+
+.footer p{
+  margin-left: 23%;
+  margin-top: 35px;
+  float:left;
+  font-family: 'Current';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 28px;
+  color: #ECD6BE;
+}
+
+.footer img{
+  width: 50px;
+  height: auto;
+}
